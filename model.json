@@ -1,0 +1,10 @@
+{
+    "prompt": "In a small, forgotten village, there was a well that granted wishes but only if you whispered your deepest secret into its depths. One day, a young girl named Lily approached the well, desperate to save her sick mother. ",
+    "wav_input_url": "https://huggingface.co/camenduru/MuseTalk/resolve/main/ash.wav",
+    "alpha": 0.9,
+    "beta": 0.9,
+    "diffusion_steps": 10,
+    "embedding_scale": 1,
+    "video_input_url": "https://huggingface.co/camenduru/MuseTalk/resolve/main/video.mp4",
+    "bbox_shift": 0
+}

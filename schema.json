@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+    "type": "object",
+    "properties": {
+      "readme": {
+        "type": "string",
+        "title": "MuseTalk: Real-Time High Quality Lip Synchronization with Latent Space Inpainting",
+        "author": "Yue Zhang, Minhao Liu, Zhaokang Chen, Bin Wu, Yingjie He, Chao Zhan, Wenjiang Zhou",
+        "code": "https://github.com/TMElyralab/MuseTalk",
+        "jupyter": "https://github.com/camenduru/MuseTalk-jupyter",
+        "tags": [
+          "Text to Talking Video"
+        ],
+        "widget": "readme"
+      },
+      "prompt": {
+        "type": "string",
+        "description": "Text",
+        "widget": "textarea"
+      },
+      "wav_input_url": {
+        "type": "string",
+        "description": "WAV Input URL",
+        "widget": "textarea"
+      },
+      "alpha": {
+        "type": "number",
+        "description": "TTS Alpha"
+      },
+      "beta": {
+        "type": "number",
+        "description": "TTS Beta"
+      },
+      "diffusion_steps": {
+        "type": "integer",
+        "description": "TTS Diffusion Steps"
+      },
+      "embedding_scale": {
+        "type": "integer",
+        "description": "TTS Embedding Scale"
+      },
+      "video_input_url": {
+        "type": "string",
+        "description": "Video Input URL",
+        "widget": "textarea"
+      },
+      "bbox_shift": {
+        "type": "integer",
+        "description": "Bbox Shift"
+      }
+    },
+    "buttons": [
+      {
+        "id": "enter",
+        "label": "🥪 Enter"
+      }
+    ]
+  }
