@@ -20,6 +20,12 @@
       "description": "Text",
       "widget": "textarea"
     },
+    "upload1": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "wav_input_url"
+    },
     "wav_input_url": {
       "type": "string",
       "description": "WAV Input URL",
@@ -40,6 +46,12 @@
     "embedding_scale": {
       "type": "integer",
       "description": "TTS Embedding Scale"
+    },
+    "upload2": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "video_input_url"
     },
     "video_input_url": {
       "type": "string",
