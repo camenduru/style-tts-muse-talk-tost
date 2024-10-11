@@ -28,7 +28,7 @@
     },
     "wav_input_url": {
       "type": "string",
-      "description": "WAV Input URL",
+      "description": "WAV Input URL for Voice Cloning",
       "widget": "textarea"
     },
     "alpha": {
@@ -55,12 +55,21 @@
     },
     "video_input_url": {
       "type": "string",
-      "description": "Video Input URL",
+      "description": "Video Input URL for Character Movements",
       "widget": "textarea"
     },
     "bbox_shift": {
       "type": "integer",
       "description": "Bbox Shift"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/896x1280/282828/eae0d0/?text=wav#.png",
+      "image2": "https://files.catbox.moe/xncuvq.mp4",
+      "image3": "https://fakeimg.pl/896x1280/282828/eae0d0/?text=<in%20out>#.png",
+      "image4": "https://files.catbox.moe/qjtsag.mp4",
+      "video_aspect_ratio": "143%",
+      "widget": "example"
     }
   },
   "buttons": [
